@@ -11,9 +11,10 @@ export default function Banner({ className }) {
     fade: true,
     arrows: false,
   };
+  console.log(className)
   return (
     <>
-      <div className={`w-full xl:h-[733px] h-[500px] ${className || ""}`}>
+      <div className={`w-full xl:h-[400px] h-[500px] ${className || ""}`}>
         <div className="main-wrapper w-full h-full">
           <div className="hero-slider-wrapper xl:h-full mb-20 xl:mb-0  w-full relative">
             <div className="absolute left-0 top-0 w-full h-full items-center justify-between hidden xl:flex">
@@ -70,7 +71,7 @@ export default function Banner({ className }) {
               </button>
             </div>
             <SimpleSlider settings={settings} selector={sliderRef}>
-              <div className="item w-full xl:h-[733px] h-[500px]">
+              <div className="item w-full xl:h-[450px] h-[500px]">
                 <div
                   className="w-full h-full relative"
                   style={{
@@ -82,9 +83,9 @@ export default function Banner({ className }) {
                   <div className="container-x mx-auto flex items-center  h-full">
                     <div className="w-full h-full xl:flex items-center pt-20 xl:pt-0">
                       <div className="xl:w-[626px] w-full">
-                        <p className="md:text-[34px] text-[20px] font-medium text-white mb-[7px]">
+                        {/* <p className="md:text-[34px] text-[20px] font-medium text-white mb-[7px]">
                           VR BOX 3D Glass
-                        </p>
+                        </p> */}
                         <h1 className="md:text-[66px] text-[40px]  font-bold text-white md:leading-[80px] leading-[40px] mb-[44px]">
                           Explore Our Tech Collection Perfect Gadget
                         </h1>
@@ -140,7 +141,7 @@ export default function Banner({ className }) {
                   </div>
                 </div>
               </div>
-              <div className="item w-full xl:h-[733px] h-[500px]">
+              {/* <div className="item w-full xl:h-[733px] h-[500px]">
                 <div
                   style={{
                     backgroundImage: `url(/assets/images/banner-2.3.png)`,
@@ -279,7 +280,7 @@ export default function Banner({ className }) {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </SimpleSlider>
           </div>
         </div>
