@@ -20,12 +20,12 @@ const pwaConfig = {
     ],
   },
   manifest: {
-    name: "Shopo",
-    short_name: "Shopo",
-    description: "Shopo",
+    name: "iPharm",
+    short_name: "iPharm",
+    description: "",
     start_url: "/",
     display: "standalone",
-    background_color: "#FFBB38",
+    background_color: "#005670",
     theme_color: "#FFBB38",
     icons: [
       {
@@ -45,5 +45,6 @@ const pwaConfig = {
 // https://vitejs.dev/config/
 export default defineConfig({
   basename: "/",
+  server:{port:3000},
   plugins: [react(), VitePWA(pwaConfig), tailwind()],
 });

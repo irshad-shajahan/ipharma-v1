@@ -28,11 +28,11 @@ import HomeFour from "./components/HomeFour";
 import HomeFive from "./components/HomeFive";
 
 const router = createBrowserRouter([
-  { path: "/", element: <Home /> },
-  { path: "/home-two", element: <HomeTwo /> },
-  { path: "/home-three", element: <HomeThree /> },
-  { path: "/home-four", element: <HomeFour /> },
-  { path: "/home-five", element: <HomeFive /> },
+  { path: "/", element: <HomeThree /> },
+  // { path: "/home-two", element: <HomeTwo /> },
+  // { path: "/home-three", element: <HomeThree /> },
+  // { path: "/home-four", element: <HomeFour /> },
+  // { path: "/home-five", element: <HomeFive /> },
   { path: "/all-products", element: <AllProductPage /> },
   { path: "/single-product", element: <SingleProductPage /> },
   { path: "/cart", element: <CardPage /> },
