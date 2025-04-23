@@ -40,7 +40,7 @@ export default function ProductCardStyleOne({ datas, type }) {
                     width: `${datas.campaingn_product ? 100 - available : 0}%`,
                   }}
                   className={`h-full absolute left-0 top-0  ${
-                    type === 3 ? "bg-qh3-blue" : "bg-qyellow"
+                    type === 3 ? "bg-[#005670]" : "bg-qyellow"
                   }`}
                 ></div>
               </div>

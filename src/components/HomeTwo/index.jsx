@@ -6,7 +6,7 @@ import SectionStyleFour from "../Helpers/SectionStyleFour";
 import SectionStyleThreeHomeTwo from "../Helpers/SectionStyleThreeHomeTwo";
 import SectionStyleTwo from "../Helpers/SectionStyleTwoHomeTwo";
 import ViewMoreTitle from "../Helpers/ViewMoreTitle";
-import ProductsAds from "../Home/ProductsAds";
+import ProductsAds from "../oldHome/ProductsAds";
 import Banner from "./Banner";
 import CampaignCountDown from "./CampaignCountDown";
 import CategoriesSection from "./CategoriesSection";

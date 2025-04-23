@@ -1,5 +1,5 @@
 import { useState } from "react";
-import DiscountBanner from "../Home/DiscountBanner";
+import DiscountBanner from "../oldHome/DiscountBanner";
 import Footer from "./Footers/Footer";
 import Header from "./Headers/HeaderOne";
 import DrawerThree from "../Mobile/DrawerThree";
@@ -17,6 +17,6 @@ export default function LayoutHomeThree({ children, childrenClasses,type }) {
                 <DiscountBanner type={3} />
                 <Footer type={type} />
             </div>
-        </>
+        </> 
     );
 }

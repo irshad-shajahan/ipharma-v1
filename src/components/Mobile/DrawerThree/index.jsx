@@ -32,7 +32,7 @@ export default function DrawerThree({ className, open, action }) {
                       <Compair />
                     </span>
                   </Link>
-                  <span className="w-[18px] h-[18px] text-white rounded-full bg-qh3-blue absolute -top-2.5 -right-2.5 flex justify-center items-center text-[9px]">
+                  <span className="w-[18px] h-[18px] text-white rounded-full bg-[#005670] absolute -top-2.5 -right-2.5 flex justify-center items-center text-[9px]">
                     2
                   </span>
                 </div>
@@ -42,7 +42,7 @@ export default function DrawerThree({ className, open, action }) {
                       <ThinLove />
                     </span>
                   </Link>
-                  <span className="w-[18px] h-[18px] text-white rounded-full bg-qh3-blue absolute -top-2.5 -right-2.5 flex justify-center items-center text-[9px]">
+                  <span className="w-[18px] h-[18px] text-white rounded-full bg-[#005670] absolute -top-2.5 -right-2.5 flex justify-center items-center text-[9px]">
                     1
                   </span>
                 </div>
@@ -80,7 +80,7 @@ export default function DrawerThree({ className, open, action }) {
                   placeholder="Search Product..."
                 />
               </div>
-              <div className="w-[40px] h-full bg-qh3-blue flex justify-center items-center">
+              <div className="w-[40px] h-full bg-[#005670] flex justify-center items-center">
                 <span>
                   <svg
                     width="23"
@@ -122,7 +122,7 @@ export default function DrawerThree({ className, open, action }) {
               <ul className="categories-list">
                 <li className="category-item">
                   <Link to="/all-products">
-                    <div className=" flex justify-between items-center px-5 h-12 bg-white hover:bg-qh3-blue transition-all duration-300 ease-in-out cursor-pointer">
+                    <div className=" flex justify-between items-center px-5 h-12 bg-white hover:bg-[#005670] transition-all duration-300 ease-in-out cursor-pointer">
                       <div className="flex items-center space-x-6">
                         <span>
                           <svg
@@ -203,7 +203,7 @@ export default function DrawerThree({ className, open, action }) {
                 </li>
                 <li className="category-item">
                   <Link to="/all-products">
-                    <div className="flex justify-between items-center px-5 h-12 bg-white hover:bg-qh3-blue transition-all duration-300 ease-in-out cursor-pointer">
+                    <div className="flex justify-between items-center px-5 h-12 bg-white hover:bg-[#005670] transition-all duration-300 ease-in-out cursor-pointer">
                       <div className="flex items-center space-x-6">
                         <span>
                           <svg
@@ -288,7 +288,7 @@ export default function DrawerThree({ className, open, action }) {
                 </li>
                 <li className="category-item">
                   <Link to="/all-products">
-                    <div className=" flex justify-between items-center px-5 h-12 bg-white hover:bg-qh3-blue transition-all duration-300 ease-in-out cursor-pointer">
+                    <div className=" flex justify-between items-center px-5 h-12 bg-white hover:bg-[#005670] transition-all duration-300 ease-in-out cursor-pointer">
                       <div className="flex items-center space-x-6">
                         <span>
                           <svg
@@ -367,7 +367,7 @@ export default function DrawerThree({ className, open, action }) {
                 </li>
                 <li className="category-item">
                   <Link to="/all-products">
-                    <div className="flex justify-between items-center px-5 h-12 bg-white hover:bg-qh3-blue transition-all duration-300 ease-in-out cursor-pointer">
+                    <div className="flex justify-between items-center px-5 h-12 bg-white hover:bg-[#005670] transition-all duration-300 ease-in-out cursor-pointer">
                       <div className="flex items-center space-x-6">
                         <span>
                           <svg
@@ -438,7 +438,7 @@ export default function DrawerThree({ className, open, action }) {
                 </li>
                 <li className="category-item">
                   <Link to="/all-products">
-                    <div className=" flex justify-between items-center px-5 h-12 bg-white hover:bg-qh3-blue transition-all duration-300 ease-in-out cursor-pointer">
+                    <div className=" flex justify-between items-center px-5 h-12 bg-white hover:bg-[#005670] transition-all duration-300 ease-in-out cursor-pointer">
                       <div className="flex items-center space-x-6">
                         <span>
                           <svg
@@ -529,7 +529,7 @@ export default function DrawerThree({ className, open, action }) {
                 </li>
                 <li className="category-item">
                   <Link to="/all-products">
-                    <div className="flex justify-between items-center px-5 h-12 bg-white hover:bg-qh3-blue transition-all duration-300 ease-in-out cursor-pointer">
+                    <div className="flex justify-between items-center px-5 h-12 bg-white hover:bg-[#005670] transition-all duration-300 ease-in-out cursor-pointer">
                       <div className="flex items-center space-x-6">
                         <span>
                           <svg
@@ -582,7 +582,7 @@ export default function DrawerThree({ className, open, action }) {
                 </li>
                 <li className="category-item ">
                   <Link to="/all-products">
-                    <div className="flex justify-between items-center px-5 h-12 bg-white hover:bg-qh3-blue transition-all duration-300 ease-in-out cursor-pointer">
+                    <div className="flex justify-between items-center px-5 h-12 bg-white hover:bg-[#005670] transition-all duration-300 ease-in-out cursor-pointer">
                       <div className="flex items-center space-x-6">
                         <span>
                           <svg
@@ -653,7 +653,7 @@ export default function DrawerThree({ className, open, action }) {
                 </li>
                 <li className="category-item">
                   <Link to="/all-products">
-                    <div className=" flex justify-between items-center px-5 h-12 bg-white hover:bg-qh3-blue transition-all duration-300 ease-in-out cursor-pointer">
+                    <div className=" flex justify-between items-center px-5 h-12 bg-white hover:bg-[#005670] transition-all duration-300 ease-in-out cursor-pointer">
                       <div className="flex items-center space-x-6">
                         <span>
                           <svg
@@ -718,7 +718,7 @@ export default function DrawerThree({ className, open, action }) {
                 </li>
                 <li className="category-item">
                   <Link to="/all-products">
-                    <div className="flex justify-between items-center px-5 h-12 bg-white hover:bg-qh3-blue transition-all duration-300 ease-in-out cursor-pointer">
+                    <div className="flex justify-between items-center px-5 h-12 bg-white hover:bg-[#005670] transition-all duration-300 ease-in-out cursor-pointer">
                       <div className="flex items-center space-x-6">
                         <span>
                           <svg
@@ -773,7 +773,7 @@ export default function DrawerThree({ className, open, action }) {
                 </li>
                 <li className="category-item ">
                   <Link to="/all-products">
-                    <div className="flex justify-between items-center px-5 h-12 bg-white hover:bg-qh3-blue transition-all duration-300 ease-in-out cursor-pointer">
+                    <div className="flex justify-between items-center px-5 h-12 bg-white hover:bg-[#005670] transition-all duration-300 ease-in-out cursor-pointer">
                       <div className="flex items-center space-x-6">
                         <span>
                           <svg
@@ -836,7 +836,7 @@ export default function DrawerThree({ className, open, action }) {
                 </li>
                 <li className="category-item">
                   <Link to="/all-products">
-                    <div className=" flex justify-between items-center px-5 h-12 bg-white hover:bg-qh3-blue transition-all duration-300 ease-in-out cursor-pointer">
+                    <div className=" flex justify-between items-center px-5 h-12 bg-white hover:bg-[#005670] transition-all duration-300 ease-in-out cursor-pointer">
                       <div className="flex items-center space-x-6">
                         <span>
                           <svg
@@ -894,7 +894,7 @@ export default function DrawerThree({ className, open, action }) {
               <ul className="categories-list">
                 <li className="category-item">
                   <Link to="/">
-                    <div className=" flex justify-between items-center px-5 h-12 bg-white hover:bg-qh3-blue transition-all duration-300 ease-in-out cursor-pointer">
+                    <div className=" flex justify-between items-center px-5 h-12 bg-white hover:bg-[#005670] transition-all duration-300 ease-in-out cursor-pointer">
                       <div className="flex items-center space-x-6">
                         <span className="text-sm font-400">Home</span>
                       </div>
@@ -1007,7 +1007,7 @@ export default function DrawerThree({ className, open, action }) {
                 </li>
                 <li className="category-item">
                   <Link to="/shops/shop">
-                    <div className="flex justify-between items-center px-5 h-12 bg-white hover:bg-qh3-blue transition-all duration-300 ease-in-out cursor-pointer">
+                    <div className="flex justify-between items-center px-5 h-12 bg-white hover:bg-[#005670] transition-all duration-300 ease-in-out cursor-pointer">
                       <div className="flex items-center space-x-6">
                         <span className="text-sm font-400">Shop</span>
                       </div>
@@ -1044,7 +1044,7 @@ export default function DrawerThree({ className, open, action }) {
                 </li>
                 <li className="category-item">
                   <Link to="#">
-                    <div className=" flex justify-between items-center px-5 h-12 bg-white hover:bg-qh3-blue transition-all duration-300 ease-in-out cursor-pointer">
+                    <div className=" flex justify-between items-center px-5 h-12 bg-white hover:bg-[#005670] transition-all duration-300 ease-in-out cursor-pointer">
                       <div className="flex items-center space-x-6">
                         <span className="text-sm font-400">Pages</span>
                       </div>
@@ -1081,7 +1081,7 @@ export default function DrawerThree({ className, open, action }) {
                   <ul className="submenu-list ml-5">
                     <li className="category-item">
                       <Link to="/privacy-policy">
-                        <div className=" flex justify-between items-center px-5 h-12 bg-white hover:bg-qh3-blue transition-all duration-300 ease-in-out cursor-pointer">
+                        <div className=" flex justify-between items-center px-5 h-12 bg-white hover:bg-[#005670] transition-all duration-300 ease-in-out cursor-pointer">
                           <div className="flex items-center space-x-6">
                             <span className="text-sm font-400">
                               Privacy Policy
@@ -1120,7 +1120,7 @@ export default function DrawerThree({ className, open, action }) {
                     </li>
                     <li className="category-item">
                       <Link to="/faq">
-                        <div className=" flex justify-between items-center px-5 h-12 bg-white hover:bg-qh3-blue transition-all duration-300 ease-in-out cursor-pointer">
+                        <div className=" flex justify-between items-center px-5 h-12 bg-white hover:bg-[#005670] transition-all duration-300 ease-in-out cursor-pointer">
                           <div className="flex items-center space-x-6">
                             <span className="text-sm font-400">FAQ</span>
                           </div>
@@ -1157,7 +1157,7 @@ export default function DrawerThree({ className, open, action }) {
                     </li>
                     <li className="category-item">
                       <Link to="/terms-condition">
-                        <div className=" flex justify-between items-center px-5 h-12 bg-white hover:bg-qh3-blue transition-all duration-300 ease-in-out cursor-pointer">
+                        <div className=" flex justify-between items-center px-5 h-12 bg-white hover:bg-[#005670] transition-all duration-300 ease-in-out cursor-pointer">
                           <div className="flex items-center space-x-6">
                             <span className="text-sm font-400">
                               Terms and Conditions
@@ -1199,7 +1199,7 @@ export default function DrawerThree({ className, open, action }) {
 
                 <li className="category-item">
                   <Link to="/about">
-                    <div className="flex justify-between items-center px-5 h-12 bg-white hover:bg-qh3-blue transition-all duration-300 ease-in-out cursor-pointer">
+                    <div className="flex justify-between items-center px-5 h-12 bg-white hover:bg-[#005670] transition-all duration-300 ease-in-out cursor-pointer">
                       <div className="flex items-center space-x-6">
                         <span className="text-sm font-400">About</span>
                       </div>
@@ -1236,7 +1236,7 @@ export default function DrawerThree({ className, open, action }) {
                 </li>
                 <li className="category-item">
                   <Link to="/Blogs">
-                    <div className="flex justify-between items-center px-5 h-12 bg-white hover:bg-qh3-blue transition-all duration-300 ease-in-out cursor-pointer">
+                    <div className="flex justify-between items-center px-5 h-12 bg-white hover:bg-[#005670] transition-all duration-300 ease-in-out cursor-pointer">
                       <div className="flex items-center space-x-6">
                         <span className="text-sm font-400">Blogs</span>
                       </div>
@@ -1273,7 +1273,7 @@ export default function DrawerThree({ className, open, action }) {
                 </li>
                 <li className="category-item">
                   <Link to="/contact">
-                    <div className="flex justify-between items-center px-5 h-12 bg-white hover:bg-qh3-blue transition-all duration-300 ease-in-out cursor-pointer">
+                    <div className="flex justify-between items-center px-5 h-12 bg-white hover:bg-[#005670] transition-all duration-300 ease-in-out cursor-pointer">
                       <div className="flex items-center space-x-6">
                         <span className="text-sm font-400">Contact</span>
                       </div>

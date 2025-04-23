@@ -116,7 +116,7 @@ body {
   line-height: 0;
 }
 .blue-btn {
-  @apply w-full text-[13px] text-white font-semibold bg-qh3-blue flex justify-center items-center h-full;
+  @apply w-full text-[13px] text-white font-semibold bg-[#005670] flex justify-center items-center h-full;
   line-height: 0;
 }
 .gray-btn {

@@ -16,11 +16,12 @@ export default function Middlebar({ className, type }) {
               {type === 3 ? (
                 <Link to="/">
                   <img
-                    width="152"
-                    height="36"
+                  className="w-56"
+                    // width="152"
+                    // height="36"
                     src={`${
                       import.meta.env.VITE_PUBLIC_URL
-                    }/assets/images/logo-3.svg`}
+                    }/assets/ipharm/logo-d.png`}
                     alt="logo"
                   />
                 </Link>
@@ -60,7 +61,7 @@ export default function Middlebar({ className, type }) {
                 </Link>
                 <span
                   className={`w-[18px] h-[18px] rounded-full  absolute -top-2.5 -right-2.5 flex justify-center items-center text-[9px] ${
-                    type === 3 ? "bg-qh3-blue text-white" : "bg-qyellow"
+                    type === 3 ? "bg-[#005670] text-white" : "bg-qyellow"
                   }`}
                 >
                   2
@@ -74,7 +75,7 @@ export default function Middlebar({ className, type }) {
                 </Link>
                 <span
                   className={`w-[18px] h-[18px] rounded-full  absolute -top-2.5 -right-2.5 flex justify-center items-center text-[9px] ${
-                    type === 3 ? "bg-qh3-blue text-white" : "bg-qyellow"
+                    type === 3 ? "bg-[#005670] text-white" : "bg-qyellow"
                   }`}
                 >
                   1
@@ -89,7 +90,7 @@ export default function Middlebar({ className, type }) {
                   </Link>
                   <span
                     className={`w-[18px] h-[18px] rounded-full  absolute -top-2.5 -right-2.5 flex justify-center items-center text-[9px] ${
-                      type === 3 ? "bg-qh3-blue text-white" : "bg-qyellow"
+                      type === 3 ? "bg-[#005670] text-white" : "bg-qyellow"
                     }`}
                   >
                     15

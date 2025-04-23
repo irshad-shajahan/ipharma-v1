@@ -26,7 +26,7 @@ export default function Navbar({ className, type }) {
   return (
     <div
       className={`nav-widget-wrapper w-full  h-[60px] relative z-30 ${
-        type === 3 ? "bg-qh3-blue" : "bg-qyellow"
+        type === 3 ? "bg-[#005670]" : "bg-qyellow"
       }  ${className || ""}`}
     >
       <div className="container-x mx-auto h-full">
@@ -82,7 +82,7 @@ export default function Navbar({ className, type }) {
                         <div
                           className={`flex justify-between items-center px-5 h-10 bg-white  transition-all duration-300 ease-in-out cursor-pointer text-qblack ${
                             type === 3
-                              ? "hover:bg-qh3-blue hover:text-white"
+                              ? "hover:bg-[#005670] hover:text-white"
                               : "hover:bg-qyellow"
                           }`}
                         >
@@ -145,7 +145,7 @@ export default function Navbar({ className, type }) {
                         <div
                           className={`flex justify-between items-center px-5 h-10 bg-white  transition-all duration-300 ease-in-out cursor-pointer text-qblack ${
                             type === 3
-                              ? "hover:bg-qh3-blue hover:text-white"
+                              ? "hover:bg-[#005670] hover:text-white"
                               : "hover:bg-qyellow"
                           }`}
                         >
@@ -209,7 +209,7 @@ export default function Navbar({ className, type }) {
                         <div
                           className={`flex justify-between items-center px-5 h-10 bg-white  transition-all duration-300 ease-in-out cursor-pointer text-qblack ${
                             type === 3
-                              ? "hover:bg-qh3-blue hover:text-white"
+                              ? "hover:bg-[#005670] hover:text-white"
                               : "hover:bg-qyellow"
                           }`}
                         >
@@ -272,7 +272,7 @@ export default function Navbar({ className, type }) {
                         <div
                           className={`flex justify-between items-center px-5 h-10 bg-white  transition-all duration-300 ease-in-out cursor-pointer text-qblack ${
                             type === 3
-                              ? "hover:bg-qh3-blue hover:text-white"
+                              ? "hover:bg-[#005670] hover:text-white"
                               : "hover:bg-qyellow"
                           }`}
                         >
@@ -331,7 +331,7 @@ export default function Navbar({ className, type }) {
                         <div
                           className={`flex justify-between items-center px-5 h-10 bg-white  transition-all duration-300 ease-in-out cursor-pointer text-qblack ${
                             type === 3
-                              ? "hover:bg-qh3-blue hover:text-white"
+                              ? "hover:bg-[#005670] hover:text-white"
                               : "hover:bg-qyellow"
                           }`}
                         >
@@ -395,7 +395,7 @@ export default function Navbar({ className, type }) {
                         <div
                           className={`flex justify-between items-center px-5 h-10 bg-white  transition-all duration-300 ease-in-out cursor-pointer text-qblack ${
                             type === 3
-                              ? "hover:bg-qh3-blue hover:text-white"
+                              ? "hover:bg-[#005670] hover:text-white"
                               : "hover:bg-qyellow"
                           }`}
                         >
@@ -453,7 +453,7 @@ export default function Navbar({ className, type }) {
                         <div
                           className={`flex justify-between items-center px-5 h-10 bg-white  transition-all duration-300 ease-in-out cursor-pointer text-qblack ${
                             type === 3
-                              ? "hover:bg-qh3-blue hover:text-white"
+                              ? "hover:bg-[#005670] hover:text-white"
                               : "hover:bg-qyellow"
                           }`}
                         >
@@ -514,7 +514,7 @@ export default function Navbar({ className, type }) {
                         <div
                           className={`flex justify-between items-center px-5 h-10 bg-white  transition-all duration-300 ease-in-out cursor-pointer text-qblack ${
                             type === 3
-                              ? "hover:bg-qh3-blue hover:text-white"
+                              ? "hover:bg-[#005670] hover:text-white"
                               : "hover:bg-qyellow"
                           }`}
                         >
@@ -573,7 +573,7 @@ export default function Navbar({ className, type }) {
                         <div
                           className={`flex justify-between items-center px-5 h-10 bg-white  transition-all duration-300 ease-in-out cursor-pointer text-qblack ${
                             type === 3
-                              ? "hover:bg-qh3-blue hover:text-white"
+                              ? "hover:bg-[#005670] hover:text-white"
                               : "hover:bg-qyellow"
                           }`}
                         >
@@ -633,7 +633,7 @@ export default function Navbar({ className, type }) {
                         <div
                           className={`flex justify-between items-center px-5 h-10 bg-white  transition-all duration-300 ease-in-out cursor-pointer text-qblack ${
                             type === 3
-                              ? "hover:bg-qh3-blue hover:text-white"
+                              ? "hover:bg-[#005670] hover:text-white"
                               : "hover:bg-qyellow"
                           }`}
                         >
@@ -692,7 +692,7 @@ export default function Navbar({ className, type }) {
                         <div
                           className={`flex justify-between items-center px-5 h-10 bg-white  transition-all duration-300 ease-in-out cursor-pointer text-qblack ${
                             type === 3
-                              ? "hover:bg-qh3-blue hover:text-white"
+                              ? "hover:bg-[#005670] hover:text-white"
                               : "hover:bg-qyellow"
                           }`}
                         >
@@ -750,7 +750,7 @@ export default function Navbar({ className, type }) {
               </div>
               <div className="nav">
                 <ul className="nav-wrapper flex xl:space-x-10 space-x-5">
-                  <li className="relative">
+                  {/* <li className="relative">
                     <span
                       className={`flex items-center text-sm font-600 cursor-pointer ${
                         type === 3 ? "text-white" : "text-qblacktext"
@@ -843,7 +843,7 @@ export default function Navbar({ className, type }) {
                         </div>
                       </div>
                     </div>
-                  </li>
+                  </li> */}
                   <li>
                     <span
                       className={`flex items-center text-sm font-600 cursor-pointer ${

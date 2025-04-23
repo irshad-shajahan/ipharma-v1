@@ -13,7 +13,7 @@ import Contact from "./components/Contact";
 import Faq from "./components/Faq";
 import FlashSale from "./components/FlashSale";
 import FourZeroFour from "./components/FourZeroFour";
-import Home from "./components/Home";
+import Home from "./components/oldHome/index.jsx";
 import HomeTwo from "./components/HomeTwo";
 import PrivacyPolicy from "./components/PrivacyPolicy";
 import ProductsCompaire from "./components/ProductsCompaire/index";
@@ -23,7 +23,7 @@ import SingleProductPage from "./components/SingleProductPage";
 import TermsCondition from "./components/TermsCondition/index";
 import TrackingOrder from "./components/TrackingOrder";
 import Wishlist from "./components/Wishlist";
-import HomeThree from "./components/HomeThree";
+import HomeThree from "./components/Home/index.jsx";
 import HomeFour from "./components/HomeFour";
 import HomeFive from "./components/HomeFive";
 
