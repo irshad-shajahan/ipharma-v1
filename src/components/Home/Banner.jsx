@@ -29,7 +29,7 @@ export default function Banner({ className }) {
               <div
                 data-aos="fade-left"
                 className="flex-1 flex xl:flex-col flex-row  xl:space-y-[30px] h-full"
-              >
+               >
                 <div className="w-full xl:h-1/2">
                   <Link to="/single-product">
                     <img
