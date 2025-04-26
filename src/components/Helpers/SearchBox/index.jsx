@@ -1,4 +1,20 @@
+import { useEffect, useState } from "react";
+
 export default function SearchBox({ className,type }) {
+  const placeholders = [
+    "Flash Sale... 🔥",
+    "Skin Care... 💆‍♀️",
+    "Visit Our Location... 📍"
+  ];
+  const [placeholderIndex, setPlaceholderIndex] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setPlaceholderIndex((prevIndex) => (prevIndex + 1) % placeholders.length);
+    }, 2000);
+
+    return () => clearInterval(interval); // Cleanup when component unmounts
+  }, []);
   return (
     <>
       <div
@@ -11,12 +27,12 @@ export default function SearchBox({ className,type }) {
             <input
               type="text"
               className="search-input"
-              placeholder="Search Product..."
+              placeholder={placeholders[placeholderIndex]}
             />
           </form>
         </div>
-        <div className="w-[1px] h-[22px] bg-qgray-border"></div>
-        <div className="flex-1 flex items-center px-4">
+        {/* <div className="w-[1px] h-[22px] bg-qgray-border"></div> */}
+        {/* <div className="flex-1 flex items-center px-4">
           <button
             type="button"
             className="w-full text-xs font-500 text-qgray flex justify-between items-center"
@@ -49,7 +65,7 @@ export default function SearchBox({ className,type }) {
               </svg>
             </span>
           </button>
-        </div>
+        </div> */}
         <button
           className={` w-[93px] h-full text-sm font-600  ${type===3?'bg-[#005670] text-white':'search-btn'}`}
           type="button"

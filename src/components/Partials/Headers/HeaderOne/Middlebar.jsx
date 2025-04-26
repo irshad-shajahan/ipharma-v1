@@ -17,8 +17,6 @@ export default function Middlebar({ className, type }) {
                 <Link to="/">
                   <img
                   className="w-56"
-                    // width="152"
-                    // height="36"
                     src={`${
                       import.meta.env.VITE_PUBLIC_URL
                     }/assets/ipharm/logo-d.png`}

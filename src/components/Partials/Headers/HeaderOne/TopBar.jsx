@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import Arrow from "../../../Helpers/icons/Arrow";
 import Selectbox from "../../../Helpers/Selectbox";
+import { CiShoppingTag } from "react-icons/ci";
 
 export default function TopBar({ className }) {
   return (
@@ -36,6 +37,9 @@ export default function TopBar({ className }) {
                   </Link>
                 </li>
               </ul>
+            </div>
+            <div className="text-center text-qblack text-xs font-[500]">
+                <h4 className="flex items-center gap-2 group"><CiShoppingTag className="text-xl group-hover:animate-pulse" /> Get 25 AED off on 1st online pharmacy purchase Use Code: NEW25</h4>
             </div>
             <div className="topbar-dropdowns sm:block hidden">
               <div className="flex space-x-6">
