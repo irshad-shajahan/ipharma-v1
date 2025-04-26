@@ -19,7 +19,7 @@ export default function HomeThree() {
   return (
     <>
       <LayoutHomeThree type={3} childrenClasses="pt-0">
-        <Banner className="banner-wrapper mb-[60px]" />
+        <Banner className="banner-wrapper mb-10" />
         <BrandSection
           type={3}
           sectionTitle="Shop by Brand"
