@@ -212,11 +212,11 @@ export default function Navbar({ className, type }) {
                             ))}
                   </div>
                   <div className="w-[30%] grid grid-cols-3 gap-3 border-l px-5 py-5 place-items-center">
-                  {brands.slice(8).map((elem,index)=>(
-                              <div className="border rounded-xl">
-                                <img className="object-contain" src={elem.url} alt="" />
-                              </div>
-                            ))}
+                       {brands.slice(8).map((elem,index)=>(
+                          <div key={index} className="border rounded-xl">
+                            <img className="object-contain" src={elem.url} alt="" />
+                          </div>
+                        ))}
                   </div>
                 </div>
                 </div>
@@ -225,7 +225,7 @@ export default function Navbar({ className, type }) {
                 <ul className="nav-wrapper flex xl:space-x-10 space-x-5">
                   {categories.map((elem,index)=>(
                      <li key={index}>
-                     <Link to="/shop">
+                     <Link to="/all-products">
                        <span
                          className={`flex items-center text-sm font-600 cursor-pointer ${
                            type === 3 ? "text-white" : "text-qblacktext"
