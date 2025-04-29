@@ -14,7 +14,7 @@ export default function LayoutHomeThree({ children, childrenClasses,type }) {
                 <div className={`w-full  ${childrenClasses || "pt-[30px] pb-[60px]"}`}>
                     {children && children}
                 </div>
-                <DiscountBanner type={3} />
+                {/* <DiscountBanner type={3} /> */}
                 <Footer type={type} />
             </div>
         </> 

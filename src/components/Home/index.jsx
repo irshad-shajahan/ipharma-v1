@@ -12,10 +12,10 @@ import LayoutHomeThree from "../Partials/LayoutHomeThree";
 import SectionStyleOneHmThree from "../Helpers/SectionStyleOneHmThree";
 
 export default function HomeThree() {
-  const { products } = datas;
+
+  // const { products } = datas;
   const {ipharmProducts } = ipharm
-  console.log(products)
-  console.log(ipharmProducts)
+  const products = ipharmProducts
   const brands = [];
   products.forEach((product) => {
     brands.push(product.brand);
@@ -37,7 +37,7 @@ export default function HomeThree() {
           className="new-products mb-[60px]"
         />
         <ProductsAds
-          ads={[`${import.meta.env.VITE_PUBLIC_URL}/assets/images/ads-3.png`]}
+          ads={[`${import.meta.env.VITE_PUBLIC_URL}/assets/ipharm/home/banner1.png`]}
           className="products-ads-section mb-[60px]"
         />
 
@@ -66,11 +66,8 @@ x-
           ads={[
             `${
             import.meta.env.VITE_PUBLIC_URL
-          }/assets/ipharm/home/banner1.png`,
+          }/assets/ipharm/home/banner2.png`,
           ]}
-          imageUrl={`${
-            import.meta.env.VITE_PUBLIC_URL
-          }/assets/ipharm/home/banner1.png`}
           sectionHeight="sm:h-[295px] h-full"
           className="products-ads-section mb-[60px]"
         />
@@ -86,10 +83,22 @@ x-
           seeMoreUrl="/all-products"
           className="category-products mb-[60px]"
         />
-        <CampaignCountDown
+          <ProductsAds
+          ads={[
+            `${
+            import.meta.env.VITE_PUBLIC_URL
+          }/assets/ipharm/home/banner3.png`,
+          `${
+            import.meta.env.VITE_PUBLIC_URL
+          }/assets/ipharm/home/banner4.png`,
+          ]}
+          sectionHeight="sm:h-[295px] h-full"
+          className="products-ads-section mb-[60px]"
+        />
+        {/* <CampaignCountDown
           className="mb-[60px]"
           lastDate="2023-10-04 4:00:00"
-        />
+        /> */}
         <SectionStyleFour
           products={products}
           sectionTitle="Popular Sales"

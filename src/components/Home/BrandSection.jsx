@@ -1,3 +1,5 @@
+import { brands } from "../../data/data";
+
 export default function BrandSection({ className, sectionTitle, type }) {
   return (
     <div data-aos="fade-up" className={`w-full ${className || ""}`}>
@@ -13,126 +15,18 @@ export default function BrandSection({ className, sectionTitle, type }) {
         )}
 
         <div className="grid lg:grid-cols-6 sm:grid-cols-4 grid-cols-2">
-          <div className="item">
+         
+        {brands.slice(4).map((elem,index)=>(
+            <div key={index} className="item">
             <div className="w-full h-[130px] bg-white border border-primarygray flex justify-center items-center">
-              <img
-                src={`${
-                  import.meta.env.VITE_PUBLIC_URL
-                }/assets/images/brand-1.png`}
+              <img  className="object-contain hover:object-cover duration-200 ease-in-out transition w-full h-full"
+                src={elem.url}
                 alt="logo"
               />
             </div>
           </div>
-          <div className="item">
-            <div className="w-full h-[130px] bg-white border border-primarygray flex justify-center items-center">
-              <img
-                src={`${
-                  import.meta.env.VITE_PUBLIC_URL
-                }/assets/images/brand-2.png`}
-                alt="logo"
-              />
-            </div>
-          </div>
-          <div className="item">
-            <div className="w-full h-[130px] bg-white border border-primarygray flex justify-center items-center">
-              <img
-                src={`${
-                  import.meta.env.VITE_PUBLIC_URL
-                }/assets/images/brand-3.png`}
-                alt="logo"
-              />
-            </div>
-          </div>
-          <div className="item">
-            <div className="w-full h-[130px] bg-white border border-primarygray flex justify-center items-center">
-              <img
-                src={`${
-                  import.meta.env.VITE_PUBLIC_URL
-                }/assets/images/brand-4.png`}
-                alt="logo"
-              />
-            </div>
-          </div>
-          <div className="item">
-            <div className="w-full h-[130px] bg-white border border-primarygray flex justify-center items-center">
-              <img
-                src={`${
-                  import.meta.env.VITE_PUBLIC_URL
-                }/assets/images/brand-5.png`}
-                alt="logo"
-              />
-            </div>
-          </div>
-          <div className="item">
-            <div className="w-full h-[130px] bg-white border border-primarygray flex justify-center items-center">
-              <img
-                src={`${
-                  import.meta.env.VITE_PUBLIC_URL
-                }/assets/images/brand-6.png`}
-                alt="logo"
-              />
-            </div>
-          </div>
-          <div className="item">
-            <div className="w-full h-[130px] bg-white border border-primarygray flex justify-center items-center">
-              <img
-                src={`${
-                  import.meta.env.VITE_PUBLIC_URL
-                }/assets/images/brand-7.png`}
-                alt="logo"
-              />
-            </div>
-          </div>
-          <div className="item">
-            <div className="w-full h-[130px] bg-white border border-primarygray flex justify-center items-center">
-              <img
-                src={`${
-                  import.meta.env.VITE_PUBLIC_URL
-                }/assets/images/brand-8.png`}
-                alt="logo"
-              />
-            </div>
-          </div>
-          <div className="item">
-            <div className="w-full h-[130px] bg-white border border-primarygray flex justify-center items-center">
-              <img
-                src={`${
-                  import.meta.env.VITE_PUBLIC_URL
-                }/assets/images/brand-9.png`}
-                alt="logo"
-              />
-            </div>
-          </div>
-          <div className="item">
-            <div className="w-full h-[130px] bg-white border border-primarygray flex justify-center items-center">
-              <img
-                src={`${
-                  import.meta.env.VITE_PUBLIC_URL
-                }/assets/images/brand-10.png`}
-                alt="logo"
-              />
-            </div>
-          </div>
-          <div className="item">
-            <div className="w-full h-[130px] bg-white border border-primarygray flex justify-center items-center">
-              <img
-                src={`${
-                  import.meta.env.VITE_PUBLIC_URL
-                }/assets/images/brand-11.png`}
-                alt="logo"
-              />
-            </div>
-          </div>
-          <div className="item">
-            <div className="w-full h-[130px] bg-white border border-primarygray flex justify-center items-center">
-              <img
-                src={`${
-                  import.meta.env.VITE_PUBLIC_URL
-                }/assets/images/brand-12.png`}
-                alt="logo"
-              />
-            </div>
-          </div>
+        ))}
+  
         </div>
       </div>
     </div>

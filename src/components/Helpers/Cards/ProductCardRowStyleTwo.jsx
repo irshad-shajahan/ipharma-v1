@@ -10,26 +10,24 @@ export default function ProductCardRowStyleTwo({ className, datas }) {
         <div className="w-full h-full flex space-x-5 justify-center items-center">
           <div className="w-[75px] h-[75px]">
             <img
-              src={`${import.meta.env.VITE_PUBLIC_URL}/assets/images/${
-                datas.image
-              }`}
+              src={datas.image}
               alt=""
-              className="w-full h-full object-cover"
+              className="w-full h-full object-contain"
             />
           </div>
           <div className="flex-1 h-full flex flex-col justify-center ">
             <Link to="/single-product">
               <p className="title mb-2 sm:text-[15px] text-[13px] font-600 text-qblack leading-[24px] line-clamp-1 hover:text-blue-600">
-                {datas.title}
+                {datas.title.en}
               </p>
             </Link>
 
             <p className="price">
               <span className="main-price text-qgray line-through font-600 text-[18px]">
-                {datas.price}
+                AED {datas.actualPrice}
               </span>
               <span className="offer-price text-qred font-600 text-[18px] ml-2">
-                {datas.offer_price}
+                AED {datas.offerPrice}
               </span>
             </p>
           </div>
