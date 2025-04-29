@@ -16,7 +16,7 @@ export default function Middlebar({ className, type }) {
               {type === 3 ? (
                 <Link to="/">
                   <img
-                  className="w-56"
+                  className="w-40"
                     src={`${
                       import.meta.env.VITE_PUBLIC_URL
                     }/assets/ipharm/logo-d.png`}
@@ -30,7 +30,7 @@ export default function Middlebar({ className, type }) {
                     height="36"
                     src={`${
                       import.meta.env.VITE_PUBLIC_URL
-                    }/assets/images/logo-4.svg`}
+                    }/assets/ipharm/logo-d.png`}
                     alt="logo"
                   />
                 </Link>
@@ -41,7 +41,7 @@ export default function Middlebar({ className, type }) {
                     height="36"
                     src={`${
                       import.meta.env.VITE_PUBLIC_URL
-                    }/assets/images/logo.svg`}
+                    }/assets/ipharm/logo-d.png`}
                     alt="logo"
                   />
                 </Link>

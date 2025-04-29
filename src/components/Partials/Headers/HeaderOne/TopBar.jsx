@@ -7,12 +7,12 @@ export default function TopBar({ className }) {
   return (
     <>
       <div
-        className={`w-full bg-white h-10 border-b border-qgray-border ${
+        className={`w-full bg-white lg:h-10 border-b border-qgray-border ${
           className || ""
         }`}
       >
         <div className="container-x mx-auto h-full">
-          <div className="flex justify-between items-center h-full">
+          <div className="flex flex-col lg:flex-row justify-between items-center h-full">
             <div className="topbar-nav">
               <ul className="flex space-x-6">
                 <li>
@@ -38,39 +38,12 @@ export default function TopBar({ className }) {
                 </li>
               </ul>
             </div>
-            <div className="text-center text-qblack text-xs font-[500]">
-                <h4 className="flex items-center gap-2 group"><CiShoppingTag className="text-xl group-hover:animate-pulse" /> Get 25 AED off on 1st online pharmacy purchase Use Code: NEW25</h4>
+            <div className="text-center text-qblack text-xs font-[500] pb-3 lg:pb-0">
+                <h4 className="flex items-center gap-2 group"><CiShoppingTag className="text-xl group-hover:animate-pulse" /> Get 25 AED off on 1st online pharmacy purchase <br className="lg:hidden"/> Use Code: NEW25</h4>
             </div>
-            <div className="topbar-dropdowns sm:block hidden">
+            <div className="topbar-dropdowns sm:block hidden w[30%]">
               <div className="flex space-x-6">
-                <div className="country-select flex space-x-1 items-center">
-                  <div>
-                    <img
-                      src={`${
-                        import.meta.env.VITE_PUBLIC_URL
-                      }/assets/images/country-logo-16x16.png`}
-                      width="16"
-                      height="16"
-                      alt="country logo"
-                      className="overflow-hidden rounded-full"
-                    />
-                  </div>
-                  <Selectbox
-                    className="w-fit"
-                    datas={["United State", "Bangladesh", "India"]}
-                  />
-                  <div>
-                    <Arrow className="fill-current qblack" />
-                  </div>
-                </div>
-                <div className="currency-select flex space-x-1 items-center">
-                  <Selectbox className="w-fit" datas={["USD", "BDT"]} />
-                  <Arrow className="fill-current qblack" />
-                </div>
-                <div className="language-select flex space-x-1 items-center">
-                  <Selectbox className="w-fit" datas={["Bangla", "english"]} />
-                  <Arrow className="fill-current qblack" />
-                </div>
+                <button></button>
               </div>
             </div>
           </div>

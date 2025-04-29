@@ -22,13 +22,15 @@ export default function ProductsAds({
             }  `}
           >
             <Link to="/single-product">
-              <img src={ads[0]} alt="" className="w-full sm:h-full h-auto" />
+              <img src={`${
+                      import.meta.env.VITE_PUBLIC_URL
+                    }/assets/ipharm/home/banner1.png`} alt="" className="w-full sm:h-full h-auto" />
             </Link>
           </div>
           {ads.length > 1 && ads.length <= 2 && (
             <div data-aos="fade-left" className="flex-1 h-full">
               <Link to="/single-product">
-                <img src={ads[1]} alt="" className="w-full h-full" />
+                <img src={ads[0]} alt="" className="w-full h-full" />
               </Link>
             </div>
           )}

@@ -34,11 +34,10 @@ export default function HeaderOne({ className, drawerAction, type = 1 }) {
             {type === 3 ? (
               <Link to="/">
                 <img
-                  width="152"
-                  height="36"
+                className="w-28"
                   src={`${
                     import.meta.env.VITE_PUBLIC_URL
-                  }/assets/images/logo-3.svg`}
+                  }/assets/ipharm/logo-d.png`}
                   alt="logo"
                 />
               </Link>

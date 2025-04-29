@@ -1,0 +1,184 @@
+{
+    "ipharmProducts": [
+    {
+      "id": "1",
+      "name": { "en": "Panadol Extra Tablets", "ar": "أقراص بنادول إكسترا" },
+      "image": "https://i-cf65.ch-static.com/content/dam/cf-consumer-healthcare/panadol-reborn/en_IE/newpackshots202406/IRE-Extra-12s.jpg",
+      "brand": { "en": "GSK", "ar": "جي إس كي" },
+      "title": { "en": "Fast Pain Relief", "ar": "تخفيف سريع للألم" },
+      "offerPrice": 5.50,
+      "actualPrice": 7.00
+    },
+    {
+      "id": "2",
+      "name": { "en": "Voltaren Emulgel", "ar": "فولتارين إمولجيل" },
+      "image": "https://i-cf65.ch-static.com/content/dam/cf-consumer-healthcare/voltaren/en_ZA/desktop/product_detail_pages/voltaren-emulgel-new-resized.png",
+      "brand": { "en": "Novartis", "ar": "نوفارتس" },
+      "title": { "en": "Relief for Joint Pain", "ar": "تخفيف ألم المفاصل" },
+      "offerPrice": 8.99,
+      "actualPrice": 11.50
+    },
+    {
+      "id": "3",
+      "name": { "en": "Adol 500mg Tablets", "ar": "أدول 500 ملغ أقراص" },
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaNSoNk8Hlz-aMg82WpzG45Gd2CG3pWWjMrQ&s",
+      "brand": { "en": "Julphar", "ar": "جلفار" },
+      "title": { "en": "Mild Pain and Fever", "ar": "ألم خفيف وحمى" },
+      "offerPrice": 3.00,
+      "actualPrice": 4.25
+    },
+    {
+      "id": "4",
+      "name": { "en": "Brufen Syrup 100ml", "ar": "شراب بروفين 100 مل" },
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsOojjnCUULjmwFDvhAmQyMeA4KlCCweYqRA&s",
+      "brand": { "en": "Abbott", "ar": "أبوت" },
+      "title": { "en": "Pain and Inflammation", "ar": "تسكين الألم والالتهابات" },
+      "offerPrice": 6.25,
+      "actualPrice": 8.00
+    },
+    {
+      "id": "5",
+      "name": { "en": "Otrivin Nasal Spray", "ar": "بخاخ أوتريفين الأنفي" },
+      "image": "https://m.media-amazon.com/images/I/71Jn-Agg3hL._AC_UF1000,1000_QL80_.jpg",
+      "brand": { "en": "Novartis", "ar": "نوفارتس" },
+      "title": { "en": "Nasal Congestion Relief", "ar": "تخفيف احتقان الأنف" },
+      "offerPrice": 9.99,
+      "actualPrice": 12.00
+    },
+    {
+      "id": "6",
+      "name": { "en": "Gaviscon Double Action", "ar": "جافيسكون دبل أكشن" },
+      "image": "https://www.visionpharmacy.com/cdn/shop/files/s-l1600_5.jpg?v=1694593267",
+      "brand": { "en": "Reckitt Benckiser", "ar": "ريكيت بينكيزر" },
+      "title": { "en": "Heartburn and Indigestion Relief", "ar": "تخفيف حرقة المعدة وعسر الهضم" },
+      "offerPrice": 10.50,
+      "actualPrice": 13.00
+    },
+    {
+      "id": "7",
+      "name": { "en": "Aspirin 81mg", "ar": "أسبرين 81 ملغ" },
+      "image": "https://bfasset.costco-static.com/U447IH35/as/mtfp578fh6pn4sswr6t2h8k/100427363-847__1?auto=webp&amp;format=jpg&width=1200&height=1200&fit=bounds&canvas=1200,1200",
+      "brand": { "en": "Bayer", "ar": "باير" },
+      "title": { "en": "Cardiovascular Support", "ar": "دعم القلب والأوعية الدموية" },
+      "offerPrice": 4.00,
+      "actualPrice": 5.00
+    },
+    {
+      "id": "8",
+      "name": { "en": "Panadol Cold & Flu", "ar": "بنادول كولد أند فلو" },
+      "image": "https://i-cf65.ch-static.com/content/dam/cf-consumer-healthcare/panadol-reborn/en_ME/product-detail/380x463-new/Cold-n-Flu-All-in-One-p.png?auto=format",
+      "brand": { "en": "GSK", "ar": "جي إس كي" },
+      "title": { "en": "Cold & Flu Relief", "ar": "تخفيف نزلات البرد والإنفلونزا" },
+      "offerPrice": 7.75,
+      "actualPrice": 9.50
+    },
+    {
+      "id": "9",
+      "name": { "en": "Amoxicillin 500mg", "ar": "أموكسيسيلين 500 ملغ" },
+      "image": "https://5.imimg.com/data5/SELLER/Default/2023/7/330128876/NZ/RO/SC/8264044/ricmox-500-mg.jpg",
+      "brand": { "en": "Pfizer", "ar": "فايزر" },
+      "title": { "en": "Antibiotic Therapy", "ar": "علاج بالمضادات الحيوية" },
+      "offerPrice": 11.00,
+      "actualPrice": 13.75
+    },
+    {
+      "id": "10",
+      "name": { "en": "Zyrtec 10mg Tablets", "ar": "زيرتك 10 ملغ أقراص" },
+      "image": "https://www.netmeds.com/images/product-v1/600x600/1129770/zyrtec_10mg_tablet_15s_722807_0_0.jpg",
+      "brand": { "en": "UCB", "ar": "يو سي بي" },
+      "title": { "en": "Allergy Relief", "ar": "تخفيف الحساسية" },
+      "offerPrice": 14.25,
+      "actualPrice": 16.50
+    },
+    {
+      "id": "11",
+      "name": { "en": "Buscopan 10mg Tablets", "ar": "بوسكوبان 10 ملغ أقراص" },
+      "image": "https://5.imimg.com/data5/SELLER/Default/2025/2/487193330/MJ/MN/LE/232829079/10mg-buscopan-hyoscine-butylbromide-tablets-500x500.jpg",
+      "brand": { "en": "Boehringer Ingelheim", "ar": "بوهرينجر إنجلهايم" },
+      "title": { "en": "Stomach Cramp Relief", "ar": "تخفيف تقلصات المعدة" },
+      "offerPrice": 5.75,
+      "actualPrice": 7.00
+    },
+    {
+      "id": "12",
+      "name": { "en": "Deep Heat Rub", "ar": "مرهم ديب هيت" },
+      "image": "https://m.media-amazon.com/images/I/71AOHHpd-6L.jpg",
+      "brand": { "en": "Mentholatum", "ar": "مينثولاتوم" },
+      "title": { "en": "Muscle Pain Relief", "ar": "تخفيف ألم العضلات" },
+      "offerPrice": 8.25,
+      "actualPrice": 10.00
+    },
+    {
+      "id": "13",
+      "name": { "en": "Nurofen for Children", "ar": "نيروفين للأطفال" },
+      "image": "https://5.imimg.com/data5/SELLER/Default/2022/12/LB/DQ/YV/11593216/s-l500.jpg",
+      "brand": { "en": "Reckitt Benckiser", "ar": "ريكيت بينكيزر" },
+      "title": { "en": "Fever and Pain Relief for Kids", "ar": "تخفيف الحمى والألم للأطفال" },
+      "offerPrice": 9.25,
+      "actualPrice": 11.00
+    },
+    {
+      "id": "14",
+      "name": { "en": "Cetaphil Moisturizing Lotion", "ar": "لوشن سيتافيل المرطب" },
+      "image": "https://m.media-amazon.com/images/I/51Z2oUIelVL.jpg",
+      "brand": { "en": "Galderma", "ar": "جالدرما" },
+      "title": { "en": "Gentle Skin Care", "ar": "عناية بالبشرة الحساسة" },
+      "offerPrice": 18.99,
+      "actualPrice": 22.00
+    },
+    {
+      "id": "15",
+      "name": { "en": "Dermovate Cream", "ar": "كريم ديرموفيت" },
+      "image": "https://5.imimg.com/data5/SELLER/Default/2024/4/409088665/JU/EU/EA/62014180/dermovate-ointment-cream.jpg",
+      "brand": { "en": "GSK", "ar": "جي إس كي" },
+      "title": { "en": "Skin Allergy Treatment", "ar": "علاج حساسية الجلد" },
+      "offerPrice": 15.50,
+      "actualPrice": 18.00
+    },
+    {
+      "id": "16",
+      "name": { "en": "Diflucan 150mg Capsule", "ar": "كبسولة ديفلوكان 150 ملغ" },
+      "image": "https://5.imimg.com/data5/SELLER/Default/2023/7/327346739/QP/XY/OE/132084489/diflucan-150-capsule.jpg",
+      "brand": { "en": "Pfizer", "ar": "فايزر" },
+      "title": { "en": "Antifungal Treatment", "ar": "علاج الفطريات" },
+      "offerPrice": 13.25,
+      "actualPrice": 15.00
+    },
+    {
+      "id": "17",
+      "name": { "en": "Minoxidil 5% Solution", "ar": "محلول مينوكسيديل 5%" },
+      "image": "https://www.clinikally.com/cdn/shop/products/Anasure560ml.jpg?v=1671608837",
+      "brand": { "en": "Rogaine", "ar": "روجاين" },
+      "title": { "en": "Hair Regrowth Treatment", "ar": "علاج إعادة نمو الشعر" },
+      "offerPrice": 42.00,
+      "actualPrice": 50.00
+    },
+    {
+      "id": "18",
+      "name": { "en": "Metformin 500mg", "ar": "ميتفورمين 500 ملغ" },
+      "image": "https://5.imimg.com/data5/SELLER/Default/2022/10/RO/RH/MC/101315720/metformin-500mg-tablet.jpg",
+      "brand": { "en": "Merck", "ar": "ميرك" },
+      "title": { "en": "Diabetes Management", "ar": "إدارة مرض السكري" },
+      "offerPrice": 7.00,
+      "actualPrice": 8.50
+    },
+    {
+      "id": "19",
+      "name": { "en": "Omeprazole 20mg", "ar": "أوميبرازول 20 ملغ" },
+      "image": "https://www.adegenpharma.com/wp-content/uploads/2023/02/OMILESS-20-CAPSULE.jpg",
+      "brand": { "en": "AstraZeneca", "ar": "أسترازينيكا" },
+      "title": { "en": "Acid Reflux Treatment", "ar": "علاج الارتجاع الحمضي" },
+      "offerPrice": 6.75,
+      "actualPrice": 8.00
+    },
+    {
+      "id": "20",
+      "name": { "en": "Claritin 10mg Tablets", "ar": "أقراص كلاريتين 10 ملغ" },
+      "image": "https://5.imimg.com/data5/DX/AL/MY-3366798/claritin.jpg",
+      "brand": { "en": "Bayer", "ar": "باير" },
+      "title": { "en": "Non-Drowsy Allergy Relief", "ar": "تخفيف الحساسية بدون نعاس" },
+      "offerPrice": 15.99,
+      "actualPrice": 18.00
+    }
+  ]
+}

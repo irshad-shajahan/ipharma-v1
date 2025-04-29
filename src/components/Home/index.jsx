@@ -1,4 +1,5 @@
 import datas from "../../data/products.json";
+import ipharm from "../../data/ipharmProducts.json";
 import SectionStyleFour from "../Helpers/SectionStyleFour";
 import SectionStyleThree from "../Helpers/SectionStyleThree";
 import SectionStyleTwo from "../Helpers/SectionStyleTwo";
@@ -12,6 +13,9 @@ import SectionStyleOneHmThree from "../Helpers/SectionStyleOneHmThree";
 
 export default function HomeThree() {
   const { products } = datas;
+  const {ipharmProducts } = ipharm
+  console.log(products)
+  console.log(ipharmProducts)
   const brands = [];
   products.forEach((product) => {
     brands.push(product.brand);
@@ -27,7 +31,7 @@ export default function HomeThree() {
         />
         <SectionStyleThree
           type={3}
-          products={products}
+          products={ipharmProducts}
           sectionTitle="New Arrivals"
           seeMoreUrl="/all-products"
           className="new-products mb-[60px]"
@@ -57,12 +61,16 @@ export default function HomeThree() {
             products={products.slice(3, products.length)}
           />
         </ViewMoreTitle>
-
+x-
         <ProductsAds
           ads={[
-            `${import.meta.env.VITE_PUBLIC_URL}/assets/images/ads-1.png`,
-            `${import.meta.env.VITE_PUBLIC_URL}/assets/images/ads-2.png`,
+            `${
+            import.meta.env.VITE_PUBLIC_URL
+          }/assets/ipharm/home/banner1.png`,
           ]}
+          imageUrl={`${
+            import.meta.env.VITE_PUBLIC_URL
+          }/assets/ipharm/home/banner1.png`}
           sectionHeight="sm:h-[295px] h-full"
           className="products-ads-section mb-[60px]"
         />

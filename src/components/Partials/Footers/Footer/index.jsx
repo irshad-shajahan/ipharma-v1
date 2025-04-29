@@ -6,18 +6,17 @@ import Youtube from "../../../Helpers/icons/Youtube";
 export default function Footer({ type }) {
   return (
     <footer className="footer-section-wrapper bg-white print:hidden">
-      <div className="container-x block mx-auto pt-[56px]">
+      <div className="container-x block mx-auto">
         <div className="w-full flex flex-col items-center mb-[50px]">
           {/* logo area */}
-          <div className="mb-[40px]">
+          <div className="">
             {type === 3 ? (
               <Link to="/">
                 <img
-                  width="152"
-                  height="36"
+                className="w-60"
                   src={`${
                     import.meta.env.VITE_PUBLIC_URL
-                  }/assets/images/logo-3.svg`}
+                  }/assets/ipharm/logo-d.png`}
                   alt="logo"
                 />
               </Link>
