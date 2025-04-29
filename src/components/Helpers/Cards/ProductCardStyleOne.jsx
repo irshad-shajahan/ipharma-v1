@@ -11,41 +11,21 @@ export default function ProductCardStyleOne({ datas, type }) {
     100;
   return (
     <div
-      className="product-card-one w-full h-full bg-white relative group overflow-hidden"
+      className="product-card-one w-full h-full bg-white relative flex flex-col justify-between group overflow-hidden"
       style={{ boxShadow: "0px 15px 64px 0px rgba(0, 0, 0, 0.05)" }}
     >
-      {/* <div
-        className="product-card-img w-full h-[300px]"
-        style={{
-          background: `url(${import.meta.env.VITE_PUBLIC_URL}/assets/images/${
-            datas.image
-          }) no-repeat center`,
-        }}
-      > */}
       <div
-        className="product-card-img w-full h-[300px] !bg-contain bg-center bg-no-repeat"
+        className="product-card-img w-full !bg-contain bg-center bg-no-repeat px-2 h-full flex items-center jus"
         >
-           <img src={datas.image} className="h-[18rem] w-full object-contain " alt="" />
-       
-        {/* product type */}
-        {/* {datas.product_type && !datas.campaingn_product && (
-          <div className="product-type absolute right-[14px] top-[17px]">
-            <span
-              className={`text-[9px] font-700 leading-none py-[6px] px-3 uppercase text-white rounded-full tracking-wider ${
-                datas.product_type === "popular" ? "bg-[#19CC40]" : "bg-qyellow"
-              }`}
-            >
-              {datas.product_type}
-            </span>
-          </div>
-        )} */}
+           <img src={datas.image} className="h-[18rem w-full object-contain " alt="" />
+
       </div>
-      <div className="product-card-details px-[30px] pb-[3rem] ">
+      <div className="product-card-details px-2 pb-[3rem] ">
         {/* add to card button */}
-        <div className="absolute w-full h-10 px-[30px] left-0 -bottom-10 group-hover:bottom-2 transition-all duration-300 ease-in-out">
+        <div className="absolute w-full h-10 lg:px-[30px] left-0 bottom-0 lg:-bottom-10 group-hover:bottom-2 transition-all duration-300 ease-in-out">
           <button
             type="button"
-            className={type === 3 ? "blue-btn" : "yellow-btn"}
+            className={"blue-btn"}
           >
             <div className="flex items-center space-x-3">
               <span>
@@ -77,10 +57,10 @@ export default function ProductCardStyleOne({ datas, type }) {
              </p>
            </Link>
            <p className="price">
-             <span className="main-price text-qgray line-through font-600 text-[18px]">
+             <span className="main-price text-qgray line-through font-600 lg:text-[18px]">
               AED {datas.actualPrice}
              </span>
-             <span className="offer-price text-qred font-600 text-[18px] ml-2">
+             <span className="offer-price text-qred font-600 lg:text-[18px] ml-2">
               AED {datas.offerPrice}
              </span>
            </p>

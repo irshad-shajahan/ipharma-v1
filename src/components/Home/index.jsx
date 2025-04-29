@@ -1,4 +1,3 @@
-import datas from "../../data/products.json";
 import ipharm from "../../data/ipharmProducts.json";
 import SectionStyleFour from "../Helpers/SectionStyleFour";
 import SectionStyleThree from "../Helpers/SectionStyleThree";
@@ -6,14 +5,11 @@ import SectionStyleTwo from "../Helpers/SectionStyleTwo";
 import ViewMoreTitle from "../Helpers/ViewMoreTitle";
 import Banner from "./Banner";
 import BrandSection from "./BrandSection";
-import CampaignCountDown from "./CampaignCountDown";
 import ProductsAds from "./ProductsAds";
 import LayoutHomeThree from "../Partials/LayoutHomeThree";
 import SectionStyleOneHmThree from "../Helpers/SectionStyleOneHmThree";
 
 export default function HomeThree() {
-
-  // const { products } = datas;
   const {ipharmProducts } = ipharm
   const products = ipharmProducts
   const brands = [];

@@ -23,6 +23,12 @@ export default {
         60: "0.6",
       },
     },
+    fontFamily: {
+      mont: ["Montserrat", "sans-serif"],
+      pop: ["Poppins", "sans-serif"],
+      ram:["Rammetto One","sans-serif"],
+      inter:["Inter","sans-serif"]
+    },
   },
   variants: {
     extend: {

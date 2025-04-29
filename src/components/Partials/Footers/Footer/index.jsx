@@ -3,7 +3,7 @@ import Facebook from "../../../Helpers/icons/Facebook";
 import Instagram from "../../../Helpers/icons/Instagram";
 import Youtube from "../../../Helpers/icons/Youtube";
 
-export default function Footer({ type }) {
+export default function Footer({ type=3 }) {
   return (
     <footer className="footer-section-wrapper bg-white print:hidden">
       <div className="container-x block mx-auto">
@@ -13,7 +13,7 @@ export default function Footer({ type }) {
             {type === 3 ? (
               <Link to="/">
                 <img
-                className="w-60"
+                className="w-60 mb-10"
                   src={`${
                     import.meta.env.VITE_PUBLIC_URL
                   }/assets/ipharm/logo-d.png`}
@@ -156,14 +156,14 @@ export default function Footer({ type }) {
               </a>
             </div>
             <span className="sm:text-base text-[10px] text-qgray font-300">
-              ©2022
+              ©2025
               <a
                 href="https://quomodosoft.com/"
                 target="_blank"
                 rel="noreferrer"
                 className="font-500 text-qblack mx-1"
               >
-                Quomodosoft
+                iPharm
               </a>
               All rights reserved
             </span>

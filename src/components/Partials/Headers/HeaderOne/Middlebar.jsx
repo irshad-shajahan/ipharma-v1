@@ -51,20 +51,6 @@ export default function Middlebar({ className, type }) {
               <SearchBox type={type} className="search-com" />
             </div>
             <div className="flex space-x-6 items-center">
-              <div className="compaire relative">
-                <Link to="/products-compaire">
-                  <span>
-                    <Compair />
-                  </span>
-                </Link>
-                <span
-                  className={`w-[18px] h-[18px] rounded-full  absolute -top-2.5 -right-2.5 flex justify-center items-center text-[9px] ${
-                    type === 3 ? "bg-[#005670] text-white" : "bg-qyellow"
-                  }`}
-                >
-                  2
-                </span>
-              </div>
               <div className="favorite relative">
                 <Link to="/wishlist">
                   <span>

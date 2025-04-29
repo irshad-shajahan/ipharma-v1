@@ -4,7 +4,7 @@ import Middlebar from "./Middlebar";
 import Navbar from "./Navbar";
 import TopBar from "./TopBar";
 
-export default function HeaderOne({ className, drawerAction, type = 1 }) {
+export default function HeaderOne({ className, drawerAction, type = 3 }) {
   return (
     <header className={` ${className || ""} header-section-wrapper relative`}>
       <TopBar className="quomodo-shop-top-bar" />

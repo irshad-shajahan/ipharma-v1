@@ -48,3 +48,35 @@ export const brands = [
         url:`${import.meta.env.VITE_PUBLIC_URL}/assets/ipharm/brands/26.png`
     }
 ]
+
+
+export const categories = [
+    {
+      title:'Mother & Baby'
+    },
+    {
+      title:'Beauty'
+    },
+    {
+      title:'Nutrition'
+    },
+    {
+      title:'Personal Care'
+    },
+    {
+      title:'Lifestyle'
+    },
+  ]
+
+  export const brandNames = [
+    { name: "Pfizer" },
+    { name: "Johnson & Johnson" },
+    { name: "Roche" },
+    { name: "Novartis" },
+    { name: "Merck & Co." },
+    { name: "Sanofi" },
+    { name: "GlaxoSmithKline (GSK)" },
+    { name: "AstraZeneca" },
+    { name: "AbbVie" },
+    { name: "Bayer" }
+  ];

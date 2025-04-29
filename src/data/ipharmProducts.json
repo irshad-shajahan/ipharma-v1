@@ -7,7 +7,11 @@
       "brand": { "en": "GSK", "ar": "جي إس كي" },
       "title": { "en": "Fast Pain Relief", "ar": "تخفيف سريع للألم" },
       "offerPrice": 5.50,
-      "actualPrice": 7.00
+      "actualPrice": 7.00,
+       "description": {
+        "en": "Voltaren Emulgel targets pain and inflammation in joints and muscles for fast relief.",
+        "ar": "يستهدف فولتارين إمولجيل الألم والالتهاب في المفاصل والعضلات لتخفيف سريع."
+      }
     },
     {
       "id": "2",
@@ -16,7 +20,11 @@
       "brand": { "en": "Novartis", "ar": "نوفارتس" },
       "title": { "en": "Relief for Joint Pain", "ar": "تخفيف ألم المفاصل" },
       "offerPrice": 8.99,
-      "actualPrice": 11.50
+      "actualPrice": 11.50,
+       "description": {
+        "en": "Voltaren Emulgel targets pain and inflammation in joints and muscles for fast relief.",
+        "ar": "يستهدف فولتارين إمولجيل الألم والالتهاب في المفاصل والعضلات لتخفيف سريع."
+      }
     },
     {
       "id": "3",
@@ -25,7 +33,11 @@
       "brand": { "en": "Julphar", "ar": "جلفار" },
       "title": { "en": "Mild Pain and Fever", "ar": "ألم خفيف وحمى" },
       "offerPrice": 3.00,
-      "actualPrice": 4.25
+      "actualPrice": 4.25,
+       "description": {
+        "en": "Voltaren Emulgel targets pain and inflammation in joints and muscles for fast relief.",
+        "ar": "يستهدف فولتارين إمولجيل الألم والالتهاب في المفاصل والعضلات لتخفيف سريع."
+      }
     },
     {
       "id": "4",
@@ -34,7 +46,11 @@
       "brand": { "en": "Abbott", "ar": "أبوت" },
       "title": { "en": "Pain and Inflammation", "ar": "تسكين الألم والالتهابات" },
       "offerPrice": 6.25,
-      "actualPrice": 8.00
+      "actualPrice": 8.00,
+       "description": {
+        "en": "Voltaren Emulgel targets pain and inflammation in joints and muscles for fast relief.",
+        "ar": "يستهدف فولتارين إمولجيل الألم والالتهاب في المفاصل والعضلات لتخفيف سريع."
+      }
     },
     {
       "id": "5",
@@ -43,7 +59,11 @@
       "brand": { "en": "Novartis", "ar": "نوفارتس" },
       "title": { "en": "Nasal Congestion Relief", "ar": "تخفيف احتقان الأنف" },
       "offerPrice": 9.99,
-      "actualPrice": 12.00
+      "actualPrice": 12.00,
+       "description": {
+        "en": "Voltaren Emulgel targets pain and inflammation in joints and muscles for fast relief.",
+        "ar": "يستهدف فولتارين إمولجيل الألم والالتهاب في المفاصل والعضلات لتخفيف سريع."
+      }
     },
     {
       "id": "6",
@@ -52,7 +72,11 @@
       "brand": { "en": "Reckitt Benckiser", "ar": "ريكيت بينكيزر" },
       "title": { "en": "Heartburn and Indigestion Relief", "ar": "تخفيف حرقة المعدة وعسر الهضم" },
       "offerPrice": 10.50,
-      "actualPrice": 13.00
+      "actualPrice": 13.00,
+       "description": {
+        "en": "Voltaren Emulgel targets pain and inflammation in joints and muscles for fast relief.",
+        "ar": "يستهدف فولتارين إمولجيل الألم والالتهاب في المفاصل والعضلات لتخفيف سريع."
+      }
     },
     {
       "id": "7",
@@ -61,7 +85,11 @@
       "brand": { "en": "Bayer", "ar": "باير" },
       "title": { "en": "Cardiovascular Support", "ar": "دعم القلب والأوعية الدموية" },
       "offerPrice": 4.00,
-      "actualPrice": 5.00
+      "actualPrice": 5.00,
+       "description": {
+        "en": "Voltaren Emulgel targets pain and inflammation in joints and muscles for fast relief.",
+        "ar": "يستهدف فولتارين إمولجيل الألم والالتهاب في المفاصل والعضلات لتخفيف سريع."
+      }
     },
     {
       "id": "8",
@@ -70,7 +98,11 @@
       "brand": { "en": "GSK", "ar": "جي إس كي" },
       "title": { "en": "Cold & Flu Relief", "ar": "تخفيف نزلات البرد والإنفلونزا" },
       "offerPrice": 7.75,
-      "actualPrice": 9.50
+      "actualPrice": 9.50,
+       "description": {
+        "en": "Voltaren Emulgel targets pain and inflammation in joints and muscles for fast relief.",
+        "ar": "يستهدف فولتارين إمولجيل الألم والالتهاب في المفاصل والعضلات لتخفيف سريع."
+      }
     },
     {
       "id": "9",
@@ -79,7 +111,11 @@
       "brand": { "en": "Pfizer", "ar": "فايزر" },
       "title": { "en": "Antibiotic Therapy", "ar": "علاج بالمضادات الحيوية" },
       "offerPrice": 11.00,
-      "actualPrice": 13.75
+      "actualPrice": 13.75,
+       "description": {
+        "en": "Voltaren Emulgel targets pain and inflammation in joints and muscles for fast relief.",
+        "ar": "يستهدف فولتارين إمولجيل الألم والالتهاب في المفاصل والعضلات لتخفيف سريع."
+      }
     },
     {
       "id": "10",
@@ -88,7 +124,11 @@
       "brand": { "en": "UCB", "ar": "يو سي بي" },
       "title": { "en": "Allergy Relief", "ar": "تخفيف الحساسية" },
       "offerPrice": 14.25,
-      "actualPrice": 16.50
+      "actualPrice": 16.50,
+       "description": {
+        "en": "Voltaren Emulgel targets pain and inflammation in joints and muscles for fast relief.",
+        "ar": "يستهدف فولتارين إمولجيل الألم والالتهاب في المفاصل والعضلات لتخفيف سريع."
+      }
     },
     {
       "id": "11",
@@ -97,7 +137,11 @@
       "brand": { "en": "Boehringer Ingelheim", "ar": "بوهرينجر إنجلهايم" },
       "title": { "en": "Stomach Cramp Relief", "ar": "تخفيف تقلصات المعدة" },
       "offerPrice": 5.75,
-      "actualPrice": 7.00
+      "actualPrice": 7.00,
+       "description": {
+        "en": "Voltaren Emulgel targets pain and inflammation in joints and muscles for fast relief.",
+        "ar": "يستهدف فولتارين إمولجيل الألم والالتهاب في المفاصل والعضلات لتخفيف سريع."
+      }
     },
     {
       "id": "12",
@@ -106,7 +150,11 @@
       "brand": { "en": "Mentholatum", "ar": "مينثولاتوم" },
       "title": { "en": "Muscle Pain Relief", "ar": "تخفيف ألم العضلات" },
       "offerPrice": 8.25,
-      "actualPrice": 10.00
+      "actualPrice": 10.00,
+       "description": {
+        "en": "Voltaren Emulgel targets pain and inflammation in joints and muscles for fast relief.",
+        "ar": "يستهدف فولتارين إمولجيل الألم والالتهاب في المفاصل والعضلات لتخفيف سريع."
+      }
     },
     {
       "id": "13",
@@ -115,7 +163,11 @@
       "brand": { "en": "Reckitt Benckiser", "ar": "ريكيت بينكيزر" },
       "title": { "en": "Fever and Pain Relief for Kids", "ar": "تخفيف الحمى والألم للأطفال" },
       "offerPrice": 9.25,
-      "actualPrice": 11.00
+      "actualPrice": 11.00,
+       "description": {
+        "en": "Voltaren Emulgel targets pain and inflammation in joints and muscles for fast relief.",
+        "ar": "يستهدف فولتارين إمولجيل الألم والالتهاب في المفاصل والعضلات لتخفيف سريع."
+      }
     },
     {
       "id": "14",
@@ -124,7 +176,11 @@
       "brand": { "en": "Galderma", "ar": "جالدرما" },
       "title": { "en": "Gentle Skin Care", "ar": "عناية بالبشرة الحساسة" },
       "offerPrice": 18.99,
-      "actualPrice": 22.00
+      "actualPrice": 22.00,
+       "description": {
+        "en": "Voltaren Emulgel targets pain and inflammation in joints and muscles for fast relief.",
+        "ar": "يستهدف فولتارين إمولجيل الألم والالتهاب في المفاصل والعضلات لتخفيف سريع."
+      }
     },
     {
       "id": "15",
@@ -133,7 +189,11 @@
       "brand": { "en": "GSK", "ar": "جي إس كي" },
       "title": { "en": "Skin Allergy Treatment", "ar": "علاج حساسية الجلد" },
       "offerPrice": 15.50,
-      "actualPrice": 18.00
+      "actualPrice": 18.00,
+       "description": {
+        "en": "Voltaren Emulgel targets pain and inflammation in joints and muscles for fast relief.",
+        "ar": "يستهدف فولتارين إمولجيل الألم والالتهاب في المفاصل والعضلات لتخفيف سريع."
+      }
     },
     {
       "id": "16",
@@ -142,7 +202,11 @@
       "brand": { "en": "Pfizer", "ar": "فايزر" },
       "title": { "en": "Antifungal Treatment", "ar": "علاج الفطريات" },
       "offerPrice": 13.25,
-      "actualPrice": 15.00
+      "actualPrice": 15.00,
+       "description": {
+        "en": "Voltaren Emulgel targets pain and inflammation in joints and muscles for fast relief.",
+        "ar": "يستهدف فولتارين إمولجيل الألم والالتهاب في المفاصل والعضلات لتخفيف سريع."
+      }
     },
     {
       "id": "17",
@@ -151,7 +215,11 @@
       "brand": { "en": "Rogaine", "ar": "روجاين" },
       "title": { "en": "Hair Regrowth Treatment", "ar": "علاج إعادة نمو الشعر" },
       "offerPrice": 42.00,
-      "actualPrice": 50.00
+      "actualPrice": 50.00,
+       "description": {
+        "en": "Voltaren Emulgel targets pain and inflammation in joints and muscles for fast relief.",
+        "ar": "يستهدف فولتارين إمولجيل الألم والالتهاب في المفاصل والعضلات لتخفيف سريع."
+      }
     },
     {
       "id": "18",
@@ -160,7 +228,11 @@
       "brand": { "en": "Merck", "ar": "ميرك" },
       "title": { "en": "Diabetes Management", "ar": "إدارة مرض السكري" },
       "offerPrice": 7.00,
-      "actualPrice": 8.50
+      "actualPrice": 8.50,
+       "description": {
+        "en": "Voltaren Emulgel targets pain and inflammation in joints and muscles for fast relief.",
+        "ar": "يستهدف فولتارين إمولجيل الألم والالتهاب في المفاصل والعضلات لتخفيف سريع."
+      }
     },
     {
       "id": "19",
@@ -169,7 +241,11 @@
       "brand": { "en": "AstraZeneca", "ar": "أسترازينيكا" },
       "title": { "en": "Acid Reflux Treatment", "ar": "علاج الارتجاع الحمضي" },
       "offerPrice": 6.75,
-      "actualPrice": 8.00
+      "actualPrice": 8.00,
+       "description": {
+        "en": "Voltaren Emulgel targets pain and inflammation in joints and muscles for fast relief.",
+        "ar": "يستهدف فولتارين إمولجيل الألم والالتهاب في المفاصل والعضلات لتخفيف سريع."
+      }
     },
     {
       "id": "20",
@@ -178,7 +254,11 @@
       "brand": { "en": "Bayer", "ar": "باير" },
       "title": { "en": "Non-Drowsy Allergy Relief", "ar": "تخفيف الحساسية بدون نعاس" },
       "offerPrice": 15.99,
-      "actualPrice": 18.00
+      "actualPrice": 18.00,
+       "description": {
+        "en": "Voltaren Emulgel targets pain and inflammation in joints and muscles for fast relief.",
+        "ar": "يستهدف فولتارين إمولجيل الألم والالتهاب في المفاصل والعضلات لتخفيف سريع."
+      }
     }
   ]
 }

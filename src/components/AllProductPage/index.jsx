@@ -5,6 +5,7 @@ import ProductCardStyleOne from "../Helpers/Cards/ProductCardStyleOne";
 import DataIteration from "../Helpers/DataIteration";
 import Layout from "../Partials/Layout";
 import ProductsFilter from "./ProductsFilter";
+import ipharm from "../../data/ipharmProducts.json";
 
 export default function AllProductPage() {
   const [filters, setFilter] = useState({
@@ -51,7 +52,7 @@ export default function AllProductPage() {
   const [filterToggle, setToggle] = useState(false);
 
   const { products } = productDatas;
-
+  const {ipharmProducts } = ipharm
   return (
     <>
       <Layout>
@@ -76,9 +77,9 @@ export default function AllProductPage() {
                   <img
                     src={`${
                       import.meta.env.VITE_PUBLIC_URL
-                    }/assets/images/ads-5.png`}
+                    }/assets/ipharm/home/banner4.png`}
                     alt=""
-                    className="w-full h-full object-contain"
+                    className="w-full h-full object-cover"
                   />
                 </div>
               </div>
@@ -131,8 +132,8 @@ export default function AllProductPage() {
                     </svg>
                   </button>
                 </div>
-                <div className="grid xl:grid-cols-3 sm:grid-cols-2 grid-cols-1  xl:gap-[30px] gap-5 mb-[40px]">
-                  <DataIteration datas={products} startLength={0} endLength={6}>
+                <div className="grid xl:grid-cols-3 sm:grid-cols-2 grid-cols-2  xl:gap-[30px] gap-5 mb-[40px]">
+                  <DataIteration datas={ipharmProducts} startLength={0} endLength={6}>
                     {({ datas }) => (
                       <div data-aos="fade-up" key={datas.id}>
                         <ProductCardStyleOne datas={datas} />
@@ -145,14 +146,14 @@ export default function AllProductPage() {
                   <img
                     src={`${
                       import.meta.env.VITE_PUBLIC_URL
-                    }/assets/images/ads-6.png`}
+                    }/assets/ipharm/home/banner1.png`}
                     alt=""
-                    className="w-full h-full object-contain"
+                    className="w-full h-full object-cotain"
                   />
                 </div>
                 <div className="grid xl:grid-cols-3 sm:grid-cols-2 grid-cols-1 xl:gap-[30px] gap-5 mb-[40px]">
                   <DataIteration
-                    datas={products}
+                    datas={ipharmProducts}
                     startLength={6}
                     endLength={15}
                   >
