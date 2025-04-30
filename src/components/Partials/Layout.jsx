@@ -3,12 +3,13 @@ import DiscountBanner from "../oldHome/DiscountBanner";
 import Drawer from "../Mobile/Drawer";
 import Footer from "./Footers/Footer";
 import Header from "./Headers/HeaderOne";
+import DrawerThree from "../Mobile/DrawerThree";
 
 export default function Layout({ children, childrenClasses }) {
   const [drawer, setDrawer] = useState(false);
   return (
     <>
-      <Drawer open={drawer} action={() => setDrawer(!drawer)} />
+      <DrawerThree open={drawer} action={() => setDrawer(!drawer)} />
       <div className="w-full overflow-x-hidden">
         <Header drawerAction={() => setDrawer(!drawer)} />
         <div className={`w-full  ${childrenClasses || "pt-[30px] pb-[60px]"}`}>
