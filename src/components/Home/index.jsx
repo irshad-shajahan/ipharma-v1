@@ -42,7 +42,7 @@ export default function HomeThree() {
           products={products}
           brands={brands}
           categoryTitle="Mobile & Tablet"
-          sectionTitle="Gamer World"
+          sectionTitle="Trusted Essentials"
           seeMoreUrl="/all-products"
           className="category-products mb-[60px]"
         />
