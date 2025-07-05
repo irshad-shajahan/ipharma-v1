@@ -8,13 +8,16 @@ import 'react-range-slider-input/dist/style.css';
 import { registerSW } from "virtual:pwa-register";
 import { Provider } from "react-redux";
 import { store } from "./redux/store";
+import { HeroUIProvider } from "@heroui/react";
 if (import.meta.env.MODE === "production") {
   registerSW();
 }
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <Provider store={store}>
-    <App />
+    <HeroUIProvider>
+      <App />
+    </HeroUIProvider>
   </Provider>
 );
 

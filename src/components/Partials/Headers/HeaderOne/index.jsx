@@ -3,8 +3,12 @@ import ThinBag from "../../../Helpers/icons/ThinBag";
 import Middlebar from "./Middlebar";
 import Navbar from "./Navbar";
 import TopBar from "./TopBar";
+import { CiLogin } from "react-icons/ci";
+import { Button, Modal, ModalBody, ModalContent, ModalFooter, ModalHeader, useDisclosure } from "@heroui/react";
+
 
 export default function HeaderOne({ className, drawerAction, type = 3 }) {
+  const {isOpen, onOpen, onOpenChange} = useDisclosure();
   return (
     <header className={` ${className || ""} header-section-wrapper relative`}>
       <TopBar className="quomodo-shop-top-bar" />
@@ -65,6 +69,10 @@ export default function HeaderOne({ className, drawerAction, type = 3 }) {
               </Link>
             )}
           </div>
+          <div className="flex items-center gap-5">
+            <button onClick={onOpenChange}>
+              <CiLogin  className="text-2xl"/>
+            </button>
           <div className="cart relative cursor-pointer">
             <Link to="/cart">
               <span>
@@ -79,9 +87,30 @@ export default function HeaderOne({ className, drawerAction, type = 3 }) {
               15
             </span>
           </div>
+          </div>
         </div>
       </div>
       <Navbar type={type} className="quomodo-shop-nav-bar lg:block hidden" />
+      <Modal isOpen={isOpen} onOpenChange={onOpenChange}>
+        <ModalContent>
+          {(onClose) => (
+            <>
+              <ModalHeader className="flex flex-col gap-1">Modal Title</ModalHeader>
+              <ModalBody>
+     
+              </ModalBody>
+              <ModalFooter>
+                <Button color="danger" variant="light" onPress={onClose}>
+                  Close
+                </Button>
+                <Button color="primary" onPress={onClose}>
+                  Action
+                </Button>
+              </ModalFooter>
+            </>
+          )}
+        </ModalContent>
+      </Modal>
     </header>
   );
 }

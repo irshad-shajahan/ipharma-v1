@@ -1,7 +1,8 @@
 /** @type {import('tailwindcss').Config} */
+const {heroui} = require("@heroui/react");
 // import plugin from "tailwindcss/line-clamp";
 export default {
-  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  content: ["./src/**/*.{js,jsx,ts,tsx}","./node_modules/@heroui/theme/dist/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
       colors: {
@@ -36,5 +37,5 @@ export default {
       borderStyle: ["last"],
     },
   },
-  // plugins: [plugin],
+  plugins: [heroui()],
 };
