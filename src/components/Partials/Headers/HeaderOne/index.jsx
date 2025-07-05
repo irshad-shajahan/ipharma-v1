@@ -4,11 +4,12 @@ import Middlebar from "./Middlebar";
 import Navbar from "./Navbar";
 import TopBar from "./TopBar";
 import { CiLogin } from "react-icons/ci";
-import { Button, Modal, ModalBody, ModalContent, ModalFooter, ModalHeader, useDisclosure } from "@heroui/react";
-
+import LoginRegisterModal from "../../../../cusotm_components/LoginModal";
+import { useDisclosure } from "@heroui/react";
 
 export default function HeaderOne({ className, drawerAction, type = 3 }) {
-  const {isOpen, onOpen, onOpenChange} = useDisclosure();
+  const { isOpen, onOpen, onOpenChange } = useDisclosure();
+
   return (
     <header className={` ${className || ""} header-section-wrapper relative`}>
       <TopBar className="quomodo-shop-top-bar" />
@@ -91,26 +92,7 @@ export default function HeaderOne({ className, drawerAction, type = 3 }) {
         </div>
       </div>
       <Navbar type={type} className="quomodo-shop-nav-bar lg:block hidden" />
-      <Modal isOpen={isOpen} onOpenChange={onOpenChange}>
-        <ModalContent>
-          {(onClose) => (
-            <>
-              <ModalHeader className="flex flex-col gap-1">Modal Title</ModalHeader>
-              <ModalBody>
-     
-              </ModalBody>
-              <ModalFooter>
-                <Button color="danger" variant="light" onPress={onClose}>
-                  Close
-                </Button>
-                <Button color="primary" onPress={onClose}>
-                  Action
-                </Button>
-              </ModalFooter>
-            </>
-          )}
-        </ModalContent>
-      </Modal>
+      <LoginRegisterModal isOpen={isOpen} onOpenChange={onOpenChange} />
     </header>
   );
 }
